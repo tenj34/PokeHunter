@@ -14,6 +14,9 @@
 		466E3A76203BC2CB00F6CD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466E3A75203BC2CB00F6CD53 /* Assets.xcassets */; };
 		466E3A79203BC2CB00F6CD53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466E3A77203BC2CB00F6CD53 /* LaunchScreen.storyboard */; };
 		466E3A82203BC45A00F6CD53 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466E3A81203BC45A00F6CD53 /* MapKit.framework */; };
+		467C87F12043384800EA9AE9 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C87F02043384800EA9AE9 /* Annotation.swift */; };
+		46E38F67203E271C008240D2 /* HunterDexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E38F66203E271C008240D2 /* HunterDexViewController.swift */; };
+		46E38F69203E5000008240D2 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E38F68203E5000008240D2 /* CoreDataHelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		466E3A78203BC2CB00F6CD53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466E3A7A203BC2CB00F6CD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466E3A81203BC45A00F6CD53 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		467C87F02043384800EA9AE9 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		46E38F66203E271C008240D2 /* HunterDexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterDexViewController.swift; sourceTree = "<group>"; };
+		46E38F68203E5000008240D2 /* CoreDataHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			children = (
 				466E3A6B203BC2CA00F6CD53 /* AppDelegate.swift */,
 				466E3A6D203BC2CA00F6CD53 /* ViewController.swift */,
+				46E38F66203E271C008240D2 /* HunterDexViewController.swift */,
+				46E38F68203E5000008240D2 /* CoreDataHelp.swift */,
+				467C87F02043384800EA9AE9 /* Annotation.swift */,
 				466E3A6F203BC2CA00F6CD53 /* Main.storyboard */,
 				466E3A75203BC2CB00F6CD53 /* Assets.xcassets */,
 				466E3A77203BC2CB00F6CD53 /* LaunchScreen.storyboard */,
@@ -153,6 +162,9 @@
 			files = (
 				466E3A6E203BC2CA00F6CD53 /* ViewController.swift in Sources */,
 				466E3A74203BC2CB00F6CD53 /* PokeHunter.xcdatamodeld in Sources */,
+				46E38F67203E271C008240D2 /* HunterDexViewController.swift in Sources */,
+				46E38F69203E5000008240D2 /* CoreDataHelp.swift in Sources */,
+				467C87F12043384800EA9AE9 /* Annotation.swift in Sources */,
 				466E3A6C203BC2CA00F6CD53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
